@@ -10,15 +10,15 @@
 
 ## Core Implementation
 - [x] Create Agent Files
-  - [ ] Implement `src/mastra/agents/debaters.ts` with:
-    - [ ] `makeDebater()` factory function
-    - [ ] `arbiter` singleton
-    - [ ] Proper agent prompts for debaters and arbiter
+  - [x] Implement `src/mastra/agents/debaters.ts` with:
+    - [x] `makeDebater()` factory function
+    - [x] `arbiter` singleton
+    - [x] Proper agent prompts for debaters and arbiter
   - [x] Define agent schemas and interfaces (we have working examples in weather agent)
 
 - [x] Build Workflow
-  - [ ] Create `src/mastra/workflows/debate.workflow.ts`
-  - [ ] Implement step graph: init → A1 → B1 → judge
+  - [x] Create `src/mastra/workflows/debate.workflow.ts`
+  - [x] Implement step graph: init → A1 → B1 → judge
   - [x] Add proper step transitions and data passing (demonstrated in weather workflow)
 
 - [x] Create Runner
